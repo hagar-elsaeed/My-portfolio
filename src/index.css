@@ -1,0 +1,25 @@
+:root{
+    --color-background: #0b132b;
+    --color-secondary: #fb8500;
+     --color-main: #d1d5db;
+}
+.hover-primary:hover {
+  color: var(--color-secondary);
+  text-decoration: underline; /* لو عايزة underline */
+  transition: color 0.2s ease-in-out;
+  
+}
+.active-link {
+  color: var(--color-secondary);
+  text-decoration: underline;
+   
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+@import "tailwindcss";
